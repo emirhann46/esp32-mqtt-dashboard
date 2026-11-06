@@ -33,8 +33,8 @@ ESP32 tabanlı IoT cihazlarını yönetmek için web tabanlı kontrol paneli.
 
 1. Projeyi klonlayın:
 ```bash
-git clone <repository-url>
-cd mqtt-web-dashboard
+git clone https://github.com/emirhann46/esp32-mqtt-dashboard.git
+cd esp32-mqtt-dashboard
 ```
 
 2. Bağımlılıkları yükleyin:
@@ -124,7 +124,7 @@ Detaylı bilgi için `EMAIL_SETUP.md` dosyasına bakın.
 ## Klasör Yapısı
 
 ```
-mqtt-web-dashboard/
+esp32-mqtt-dashboard/
 ├── models/                 # MongoDB modelleri
 │   ├── User.js
 │   ├── SensorData.js
